@@ -17,7 +17,7 @@ import ContactContext from '../../context/contact/contactContext';
     return (
         <div className='card bg-light'>
             <h3 className="text-primary text-left">
-                {_id, name}{''} 
+                {_id, name}{' '} 
                 <span style={{ float: 'right' }} className={'badge ' + (type === 'professional' ? 
                 'badge-success' : 'badge-primary')}>
                     {type.charAt(0).toUpperCase() + type.slice(1)}

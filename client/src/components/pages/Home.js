@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     authContext.loadUser();
     // eslink-disable-next-line
-  }, []);
+  }, [authContext]);
   return (
     <div className="grid-2">
       <div>

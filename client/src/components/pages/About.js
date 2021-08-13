@@ -10,7 +10,7 @@ import React from 'react'
                 
             </p>
             <div>
-                <p>Developed By: <a href="https://kingsleyibe.net" target="_blank">kingsleyibe.net</a></p>
+                <p>Developed By: <a href="https://kingsleyibe.net" target="_blank" rel="noreferrer">kingsleyibe.net</a></p>
             </div>
         </div>
     )
